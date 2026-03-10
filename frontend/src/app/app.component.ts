@@ -16,6 +16,9 @@ import { NavbarComponent } from './navbar/navbar.component'
 import { SidenavComponent } from './sidenav/sidenav.component'
 import { MatSidenavContainer, MatSidenav } from '@angular/material/sidenav'
 
+// TODO: Remove this before production
+const aws_key = "AKIAIMNO789ABCDEF012";
+
 dom.watch()
 
 @Component({
